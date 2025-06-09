@@ -1,0 +1,19 @@
+_BASE_: "Base-RSparseRCNN.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/torchvision/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+  RSparseRCNN:
+    NUM_PROPOSALS: 100
+    NUM_CLASSES: 1
+DATASETS:
+  TRAIN: ("RSDD_train",)
+  TEST:  ("RSDD_val",)
+SOLVER:
+  STEPS: (15080, 16240) # (130, 140) #SSDD
+  MAX_ITER: 17400 # 150
+INPUT:
+  CROP:
+    ENABLED: False
+  FORMAT: "RGB"

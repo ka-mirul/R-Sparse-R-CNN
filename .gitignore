@@ -1,0 +1,15 @@
+# Ignore all .log files
+*.log
+
+# Ignore the node_modules folder
+node_modules/
+
+# Ignore a specific file
+train_net.sh
+
+# Ignore a specific folder
+build/
+detectron2.egg-info/
+output/
+saved_models/
+venv/
