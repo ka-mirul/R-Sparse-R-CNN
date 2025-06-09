@@ -1,5 +1,5 @@
 ## Sparse R-CNN OBB: Ship Target Detection in SAR Images Based on Oriented Sparse Learnable Proposals
-
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://www.gnu.org/licenses/gpl-3.0)  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15624725.svg)](https://doi.org/10.5281/zenodo.15624725) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15624144.svg)](https://doi.org/10.5281/zenodo.15624144) [![arXiv](https://img.shields.io/badge/arXiv-<2504.18959>-b31b1b.svg)](https://www.arxiv.org/abs/2504.18959) [![Published in IEEE J-STARS](https://img.shields.io/badge/IEEE%20J--STARS-11027781-blue)](https://ieeexplore.ieee.org/document/11027781)
 
 ![](props/model_architecture.png)
 ### Publication link: [IEEE J-STARS 2025](https://ieeexplore.ieee.org/document/11027781)
@@ -22,7 +22,7 @@ For best compatibility, install both from [pytorch.org](https://pytorch.org).
 
 #### Steps
 1. Download \
-   Download codes from this repo and pretrained weights here: [zenodo.org/records/15514670 ](https://zenodo.org/records/15624144). \
+   Download codes from this repo and pretrained weights here: [zenodo.org/records/15624144 ](https://zenodo.org/records/15624144). \
    These pretrained weights were obtained by separately training on [SSDD](https://github.com/TianwenZhang0825/Official-SSDD) and [RSDD-SAR](https://github.com/makabakasu/RSDD-SAR-OPEN) datasets.
    
 1. Create your virtual environment \
@@ -65,14 +65,12 @@ python demo/demo.py\
 ```
 If everything is correct, you should have output images like below:
 
-<img src="test_samples/demo_output_000229.jpg" alt="Demo Output" width="300"/>
-&nbsp;&nbsp;&nbsp;
-<img src="test_samples/demo_output_103_18_37.jpg" alt="Demo Output" width="275"/>
+<img src="test_samples/demo_output_000229.jpg" alt="Demo Output" width="300"/>    <img src="test_samples/demo_output_103_18_37.jpg" alt="Demo Output" width="275"/>
 
 **Note:** `SSDD_test_sample_000229.jpg` and `RSDD_test_sample_103_18_37.jpg` are sample images from the [SSDD](https://github.com/TianwenZhang0825/Official-SSDD) and [RSDD-SAR](https://github.com/makabakasu/RSDD-SAR-OPEN) test set and are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Training with Custom Dataset (Including RSDD-SAR)
-Read the [guide](./Training.md) for custom dataset training (iccluding trainig for SSDD and RSDD-SAR dataset).
+Read the [guide](./Training.md) for custom dataset training (including training for SSDD and RSDD-SAR dataset).
 
 ## License
 
