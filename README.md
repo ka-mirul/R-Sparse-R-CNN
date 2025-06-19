@@ -1,4 +1,4 @@
-## Sparse R-CNN OBB: Ship Target Detection in SAR Images Based on Oriented Sparse Learnable Proposals
+## R-Sparse R-CNN: SAR Ship Detection Based on Background-Aware Sparse Learnable Proposals
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://www.gnu.org/licenses/gpl-3.0)  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15624725.svg)](https://doi.org/10.5281/zenodo.15624725) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15624144.svg)](https://doi.org/10.5281/zenodo.15624144) [![arXiv](https://img.shields.io/badge/arXiv-<2504.18959>-b31b1b.svg)](https://www.arxiv.org/abs/2504.18959) [![Published in IEEE J-STARS](https://img.shields.io/badge/IEEE%20J--STARS-11027781-blue)](https://ieeexplore.ieee.org/document/11027781)
 
 ![](props/model_architecture.png)
